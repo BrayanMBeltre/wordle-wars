@@ -1,6 +1,6 @@
 // SPOILERS
 // Copied from Wordle source, and jumbled up
-export const allWords = [
+export const answers = [
   "bulla",
   "neuma",
   "tasen",
@@ -4658,3 +4658,5 @@ export const allWords = [
   "acata",
   "venir",
 ];
+
+export const allWords = [...answers];
